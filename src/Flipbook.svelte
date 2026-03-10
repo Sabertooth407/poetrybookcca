@@ -6,7 +6,7 @@
   let flipbookEl;
   let pageFlip;
 
-  const totalPages = 10;
+  const totalPages = 32;
   const images = Array.from({ length: totalPages }, (_, i) => `images/${i + 1}.png`);
 
   function createPages() {
